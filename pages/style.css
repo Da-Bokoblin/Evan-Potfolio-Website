@@ -1,0 +1,59 @@
+a {
+    text-decoration: none;
+    color: white;
+font-size: 30px;
+}
+
+
+
+.headerLink {
+/* display: inline; */
+color: white;
+font-size: 30px;
+}
+
+
+
+#header {
+    height: 110px;
+    width: 100%;
+    background-color: red;
+
+}
+
+#headerText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+#bottomOfHeader {
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+
+#featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about {
+    text-align: center;
+}
+
+img {
+    height: 300px;
+}
+
+.projectFormat {
+    text-align: center;
+}
+
+#projectDiv {
+    display: flex;
+    gap: 50px;
+}
