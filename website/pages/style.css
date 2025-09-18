@@ -50,10 +50,25 @@ img {
 }
 
 .projectFormat {
-    text-align: center;
+    text-align: center; 
+    width: 300px;
 }
 
-#projectDiv {
+#projectsDiv {
     display: flex;
-    gap: 50px;
+    flex-direction: row;
+    gap: 25px;
+}
+
+#aboutText {
+    width: 50%;
+}
+
+#aboutImg {
+    margin: 67px;
+    height: 550px;
+}
+
+#aboutBody {
+    display: flex;
 }
